@@ -80,3 +80,18 @@ body {
 	width: 400px;
 	height: 200px;
 }
+
+@media (max-width:1024px) {
+	#warning {
+		text-align: center;
+	}
+	#warning h1::before {
+		content: 'Must be viewed on computer or full sized screen. Sorry.';
+		text-align: center;
+		color: #fff;
+		font-size: 3rem;
+	}
+	.panel {
+		display: none;
+	}
+}

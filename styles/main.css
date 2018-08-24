@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.underline {
+	text-decoration: underline;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	overflow-x: hidden;
+}
+
+header {
+	height: 100vh;
+	background-image: url(../images/laptop-devices-wooden-desk.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	text-align: center;
+	margin: 0;
+	font-family: "Indie Flower", cursive;
+	color: #fff;
+	padding-top: 10%;
+	font-size: 7rem;
+}
+
+header p {
+	text-align: center;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	font-size: 2rem;
+}
+
+#customnav {
+	background-color: rgba(64, 64, 64, 0.5);
+	text-align: left;
+	padding: 1em 0 1em 1em;
+}
+
+#customnav ul {
+	padding: 0;
+	margin: 0;
+}
+
+#customnav li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#customnav li button {
+	height: 4em;
+	width: 6em;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.fontsize {
+	font-family: "Lato", sans-serif;
+	font-size: .75rem;
+	color: #fff;
+}
+
+#customnav li:hover {
+	background-color: rgba(64, 64, 64, 0.35);
+}
+
+/* About Us */
+
+#about {
+	background-image: url(../images/stone.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 50%;
+	text-align: center;
+}
+
+#about h1, p {
+	margin: 0;
+}
+
+#about h1 {
+	font-size: 4rem;
+	text-align: center;
+	color: #00FFAE;
+	font-family: "Indie Flower", cursive;
+}
+
+#about #aboutp {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #FFF;
+	font-family: "Lato", sans-serif;
+}
+
+#about #aboutp::after {
+	content: "Want to know more? Check out our about page!";
+	color: gray;
+	display: block;
+}
+
+#about button {
+	margin-top: 2em;
+	height: 5em;
+	width: 18em;
+	border: none;
+	background: #404040;
+}
+
+#about button p {
+	font-size: 2rem;
+	color: #DCDCDC;
+}
+
+#about button:hover {
+	background: #606060;
+	cursor: pointer;
+}
+
+@media (max-width:850px) {
+	#about {
+		height: 100%;
+	}
+}
+
+@media (max-width:750px) {
+	#about {
+		height: 100%;
+	}
+}
+
+@media (max-width:600px) {
+	header h1 {
+		font-size: 4em;
+	}
+
+	header p {
+		font-size: 1.5em;
+	}
+
+	#about {
+		height: 110%;
+	}
+}
+
+@media (max-width:450px) {
+	#customnav {
+		text-align: center;
+	}
+	#customnav li button {
+		height: 4em;
+		width: 5em;
+		background: transparent;
+		border: none;
+	}
+
+	#customnav li:hover {
+		background: #505050;
+		cursor: pointer;
+	}
+
+	#about {
+		height: 75%;
+	}
+}
+
+@media (max-width:320px) {
+	header h1 {
+		font-size: 4rem;
+	}
+
+	#customnav {
+		padding-left: 0;
+	}
+
+	#customnav li button {
+		width: 5em;
+	}
+
+	#about {
+		height: 100%;
+	}
+}

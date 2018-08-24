@@ -1,0 +1,82 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../images/wood-dark-banner-163999.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+#customnav {
+	background-color: rgba(64, 64, 64, 0.5);
+	text-align: left;
+	padding: 1em 0 1em 1em;
+}
+
+#customnav ul {
+	padding: 0;
+	margin: 0;
+}
+
+#customnav li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#customnav li button {
+	height: 4em;
+	width: 6em;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.fontsize {
+	font-family: "Lato", sans-serif;
+	font-size: .75rem;
+	color: #fff;
+}
+
+#customnav li:hover {
+	background-color: rgba(64, 64, 64, 0.35);
+}
+
+#pscrolling img {
+	width: 400px;
+	height: 200px;
+}
+
+.panel {
+	display: inline-block;
+	padding: 1em 0 0 1em;
+}
+
+.panel h3, p {
+	margin: 0;
+}
+
+.panel h3 {
+	background-color: #444;
+	padding: 1em 0;
+	color: #fff;
+	font-family: "Lato", sans-serif;
+	border-bottom:solid #fff 2px;
+}
+
+.panel p {
+	padding: .75em 0;
+	background: #444;
+	color: #fff;
+}
+
+.panel a button {
+	padding: 0;
+}
+
+.panel a button:hover {
+	cursor: pointer;
+}

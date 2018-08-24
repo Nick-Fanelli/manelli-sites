@@ -125,6 +125,23 @@ header p {
 	cursor: pointer;
 }
 
+#examples {
+	height: 50%;
+	background: url(../images/wood-dark-banner-163999.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#examples h1 {
+	margin: 0;
+	color: #fff;
+	font-size: 4rem;
+	font-family: "Indie Flower", cursive, sans-serif;
+	text-align: center;
+}
+
+/* MEDIA TAGS */
+
 @media (max-width:850px) {
 	#about {
 		height: 100%;

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: modeka;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #181818;
+    color: #fff;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(softail-silm-gallery-1.webp);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    padding-top: 1vh;
+    font-size: 5rem;
+    letter-spacing: .2em;
+    width: 100vw;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+header p {
+    color: #F5F5F5;
+    font-weight: bold;
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+#navigation {
+    margin: 0;
+}
+
+#customnav {
+    margin: 0;
+    margin-right: 3.5vw;
+    background: #F4A342;
+    width: 12vw;
+    height: auto;
+    text-align: center;
+    padding-left: 0;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#customnav button {
+    margin: 0;
+    text-align: center;
+    float: none;
+    border-bottom: none;
+    width: 100%;
+    text-align: left;
+    background: #f4b642;
+    color : #ffffff;
+    font-family: Lato;
+    padding-top: 1em;
+    font-size: 1rem;
+}
+
+#customnav button:hover {
+    background: #F4A342;
+}
+
+#inventory-stock {
+    padding-top: 1em;
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-family: Lato, sans-serif;
+}
+
+main img{
+    display: inline-block;
+    width: 480px;
+    margin: 0;
+    padding: 0;
+}
+
+.inv-item {
+    font-family: Lato;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2em;
+}

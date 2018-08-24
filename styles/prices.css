@@ -11,7 +11,9 @@ body, html {
 }
 
 body {
-	background: #fff;
+	background-image: url(../images/stone.jpeg);
+	background-position: center;
+	background-size: cover;
 	overflow-x: hidden;
 }
 

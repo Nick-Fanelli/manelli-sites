@@ -140,6 +140,10 @@ header p {
 	text-align: center;
 }
 
+#examples button {
+	height: ;
+}
+
 /* MEDIA TAGS */
 
 @media (max-width:850px) {

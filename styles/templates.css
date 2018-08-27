@@ -81,6 +81,18 @@ body {
 	height: 200px;
 }
 
+/* Panel Plans */
+
+#imgtxt h3::after {
+	content: " Plan: 2";
+	color: lightblue;
+}
+
+#pscrolling h3::after {
+	content: " Plan:1 With Parallax Scrolling Package";
+	color: lightblue;
+}
+
 @media (max-width:1024px) {
 	#warning {
 		text-align: center;

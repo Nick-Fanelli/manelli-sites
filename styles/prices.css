@@ -60,22 +60,22 @@ header h1 {
 
 table {
     border-collapse:separate;
-    border: solid #7287f9 1px;
+    border: solid #FFBC5B 1px;
     border-radius:6px;
     -moz-border-radius:6px;
-	background-color: #7287f9;
+	background-color: #FFBC5B;
 }
 
 td, th {
-    border-left:solid #7287f9 1px;
-    border-top:solid #7287f9 1px;
+    border-left:solid #FFBC5B 1px;
+    border-top:solid #FFBC5B 1px;
 	color: #fff;
 	font-family: "Lato", sans-serif;
 }
 
 
 th {
-    background-color: #7287f9;
+    background-color: #FFBC5B;
     border-top: none;
 	font-size: 2rem;
 }
@@ -94,4 +94,36 @@ td {
 
 #tabelcontent {
 	background-color: #fff;
+}
+
+#templates {
+	color: #333;
+	font-family: "Indie Flower", cursive;
+}
+
+#templates h1 {
+	margin: .5em 0 0 0;
+	font-size: 3rem;
+}
+
+#templates h3 {
+	margin: 0 0 .5em 0;
+	font-size: 1.5rem;
+}
+
+#templates button {
+	height: 5em;
+	width: 17em;
+	color: #fff;
+	background-color: #FFBC5B;
+	border: none;
+}
+
+#templates button span {
+	font-size: 1.5rem;
+}
+
+#templates button:hover {
+	cursor: pointer;
+	background-color: #FFAA2E;
 }
